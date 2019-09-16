@@ -3,9 +3,7 @@
 ## Program to verify Apple Disk II PROM content   v1.00
 
 Date: 2019-09-16
-
 João Ricardo Pagotto
-https://github.com/joaopagotto
 
 ## Hardware requeriment:
 - Arduino IDE
