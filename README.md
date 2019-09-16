@@ -12,18 +12,19 @@ https://github.com/joaopagotto
 - Arduino Mega 2560
 
 ## Board to connect PROM:
-(TODO)
+
+![Alt text](board_01.jpg)
+
+![Alt text](board_02.jpg)
 
 ## Program check: 
 
 ### Valid PROM:
-(TODO)
+![Alt text](valid.png)
 
 ### Invalid PROM:
-(TODO)
+![Alt text](invalid.png)
 
 This is free open-source software, distributed under a very liberal license 
 (the well-known MIT license). It may be used for any purpose, including 
 commercial purposes, at absolutely no cost. Just download it and use it.
-
-
