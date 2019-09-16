@@ -273,6 +273,8 @@ void loop()
     address++;
   }
 
+  Serial.write("\r\n");    
+
   //--------------------------------------  
 
   unsigned char valid = false;
