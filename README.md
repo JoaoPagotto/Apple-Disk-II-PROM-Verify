@@ -2,6 +2,13 @@
 
 For test Disk II Interface Card
 
+``<b>341-0009</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;13&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P5&nbsp;(BOOT)``<br/>
+``<b>341-0010</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;13&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P6&nbsp;(LOGIC)``<br/>
+``<b>341-0027</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;16&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P5&nbsp;(BOOT)``<br/>
+``<b>341-0028</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;16&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P6&nbsp;(LOGIC)``<br/>
+``<b>341-0027-A</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;16&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P5A&nbsp;1981&nbsp;(BOOT)``<br/>
+``<b>342-0028-A</b>&nbsp;Apple&nbsp;Disk&nbsp;II&nbsp;16&nbsp;Sector&nbsp;Interface&nbsp;Card&nbsp;ROM&nbsp;P6A&nbsp;1981&nbsp;(LOGIC)``<br/>
+
 ![Alt text](board.jpg)
 
 ## Hardware requeriment:
@@ -24,28 +31,28 @@ uPB421
 ## Schema:
 
 ``------+--------------``<br/>
-`` PROM | ARDUINO MEGA ``<br/>
+``&nbsp;PROM&nbsp;|&nbsp;ARDUINO&nbsp;MEGA&nbsp;``<br/>
 ``------+--------------``<br/>
-``  VCC |    +5V       ``<br/>
-``  a0  |     22       ``<br/>
-``  a1  |     24       ``<br/>
-``  a2  |     26       ``<br/>
-``  a3  |     28       ``<br/>
-``  a4  |     30       ``<br/>
-``  a5  |     27       ``<br/>
-``  a6  |     25       ``<br/>
-``  a7  |     23 	     ``<br/>
-``  g1  |     31       ``<br/>
-``  g2  |     29 	     ``<br/>
-``  q0  |     32       ``<br/>
-``  q1  |     34       ``<br/>
-``  q2  |     36       ``<br/>
-``  q3  |     38       ``<br/>
-``  q4  |     39       ``<br/>
-``  q5  |     37       ``<br/>
-``  q6  |     35       ``<br/>
-``  q7  |     33       ``<br/>
-``  GND |    GND       ``<br/>
+``&nbsp;&nbsp;VCC&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;+5V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a0&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a1&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a3&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a4&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a5&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a6&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;a7&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;g1&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;g2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q0&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q1&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;34&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q2&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q3&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q4&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q5&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;37&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q6&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;q7&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
+``&nbsp;&nbsp;GND&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;GND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;``<br/>
 ``------+--------------``<br/>
 
 ## Board to connect PROM:
