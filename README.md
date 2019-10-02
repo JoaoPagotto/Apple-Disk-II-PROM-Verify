@@ -1,9 +1,8 @@
-# Apple-Disk-II-PROM-Verify
+# Apple Disk II PROM Verify
 
-## Program to verify Apple Disk II PROM content   v1.00
+For test Disk II Interface Card
 
-Date: 2019-09-16
-João Ricardo Pagotto
+![Alt text](board.jpg)
 
 ## Hardware requeriment:
 - Arduino IDE
@@ -24,30 +23,30 @@ uPB421
 
 ## Schema:
 
-``------+--------------``
-`` PROM | ARDUINO MEGA ``
-``------+--------------``
-``  VCC |    +5V       ``
-``  a0  |     22       ``
-``  a1  |     24       ``
-``  a2  |     26       ``
-``  a3  |     28       ``
-``  a4  |     30       ``
-``  a5  |     27       ``
-``  a6  |     25       ``
-``  a7  |     23 	   ``
-``  g1  |     31       ``
-``  g2  |     29 	   `` 
-``  q0  |     32       ``
-``  q1  |     34       ``
-``  q2  |     36       ``
-``  q3  |     38       ``
-``  q4  |     39       ``
-``  q5  |     37       ``
-``  q6  |     35       ``
-``  q7  |     33       ``
-``  GND |    GND       ``
-``------+--------------``
+``------+--------------``<br/>
+`` PROM | ARDUINO MEGA ``<br/>
+``------+--------------``<br/>
+``  VCC |    +5V       ``<br/>
+``  a0  |     22       ``<br/>
+``  a1  |     24       ``<br/>
+``  a2  |     26       ``<br/>
+``  a3  |     28       ``<br/>
+``  a4  |     30       ``<br/>
+``  a5  |     27       ``<br/>
+``  a6  |     25       ``<br/>
+``  a7  |     23 	     ``<br/>
+``  g1  |     31       ``<br/>
+``  g2  |     29 	     ``<br/>
+``  q0  |     32       ``<br/>
+``  q1  |     34       ``<br/>
+``  q2  |     36       ``<br/>
+``  q3  |     38       ``<br/>
+``  q4  |     39       ``<br/>
+``  q5  |     37       ``<br/>
+``  q6  |     35       ``<br/>
+``  q7  |     33       ``<br/>
+``  GND |    GND       ``<br/>
+``------+--------------``<br/>
 
 ## Board to connect PROM:
 
