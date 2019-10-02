@@ -162,11 +162,13 @@ unsigned char romP6_341_0028[] = {
 };
 
 //-----------------------------------------------------------------------------
-// Apple Disk II 16 Sector Interface Card ROM P6 - 341-0028.bin
+// Apple Disk II 16 Sector Interface Card ROM P5A - 341-0027-A.bin
+// http://www.applelogic.org/APPLEASICs.html
+// http://www.applelogic.org/files/3410027A.BIN
 
-char str_romP5A_341_0127_A[] = "http://www.applelogic.org/files/3410027A.BIN\0";
+char str_romP5A_341_0027_A[] = "Apple Disk II 16 Sector Interface Card ROM P5A - 341-0027-A.bin\0";
 
-unsigned char romP5A_341_0127_A[] = {
+unsigned char romP5A_341_0027_A[] = {
   0x52, 0x40, 0x50, 0x00, 0x52, 0x03, 0x16, 0xCC, 0x1A, 0x0A, 0x44, 0xCC, 0xF0, 0x80, 0x05, 0xCC,
   0x29, 0xFF, 0x49, 0xEE, 0xD0, 0x08, 0x2A, 0xB0, 0xFB, 0x98, 0x9D, 0xA6, 0x03, 0x38, 0x78, 0x80,
   0x45, 0xB0, 0xB9, 0x50, 0x03, 0x15, 0x20, 0xDD, 0x1C, 0x30, 0x80, 0xFB, 0x4A, 0x15, 0xCC, 0xDD,
@@ -305,51 +307,51 @@ void loop()
 
   if ( checkProm(data_read, rom_empty) ) {
     sprintf(buffer, "### Content is empty ###\r\n");
-    Serial.write(buffer);	  
-	  valid = true;
+    Serial.write(buffer);    
+    valid = true;
   }
 
   //--------------------------------------  
-	
+  
   if ( checkProm(data_read, romP5_341_0009) ) {
     sprintf(buffer, "- The content is: [%s]\r\n", str_romP5_341_0009);
-    Serial.write(buffer);		  
+    Serial.write(buffer);     
     valid = true;
   }
 
   if ( checkProm(data_read, romP6_341_0010) ) {
     sprintf(buffer, "- The content is: [%s]\r\n", str_romP6_341_0010);
-    Serial.write(buffer);		  
+    Serial.write(buffer);     
     valid = true;
   }
 
   //--------------------------------------  
-	
+  
   if ( checkProm(data_read, romP5_341_0027) ) {
     sprintf(buffer, "- The content is: [%s]\r\n", str_romP5_341_0027);
-    Serial.write(buffer);		  
+    Serial.write(buffer);     
     valid = true;
   }
 
   if ( checkProm(data_read, romP6_341_0028) ) {
     sprintf(buffer, "- The content is: [%s]\r\n", str_romP6_341_0028);
-    Serial.write(buffer);		  
+    Serial.write(buffer);     
     valid = true;
   }
 
   //--------------------------------------  
-	
-  if ( checkProm(data_read, romP5A_341_0127_A) ) {
-    sprintf(buffer, "- The content is: [%s]\r\n", str_romP5A_341_0127_A);
-    Serial.write(buffer);		  
+  
+  if ( checkProm(data_read, romP5A_341_0027_A) ) {
+    sprintf(buffer, "- The content is: [%s]\r\n", str_romP5A_341_0027_A);
+    Serial.write(buffer);     
     valid = true;
-  }	
+  } 
 
   //--------------------------------------  
-	
+  
   if ( ! valid  ) {
     sprintf(buffer, "### Content not recognized ###\r\n");
-    Serial.write(buffer);		  
+    Serial.write(buffer);     
   }
   
   //--------------------------------------
